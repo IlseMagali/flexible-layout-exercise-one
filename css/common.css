@@ -1,3 +1,10 @@
+*{
+  box-sizing: border-box;
+}
+
+.container {
+  width:100%;
+}
 
 .row {
   width: 100%;
@@ -92,7 +99,22 @@ media queries styles for breakpoints
 */
 
 @media (min-width: 20%) and (max-width: 45%){
-  .col-12 {
+  .container {
+    width: 50%;
+    font-size:120%;
+  }
+}
+
+@media (min-width: 45%) and (max-width: 75%){
+  .container {
     width: 70%;
+    font-size:200%;
+  }
+}
+
+@media (min-width: 75%) and (max-width: 100%){
+  .container {
+    width: 100%;
+    font-size:300%;
   }
 }
