@@ -86,3 +86,13 @@
   /*(12 / 12) x 100 */
   width: 100%;
 }
+
+/*
+media queries styles for breakpoints
+*/
+
+@media (min-width: 20%) and (max-width: 45%){
+  .col-12 {
+    width: 70%;
+  }
+}
